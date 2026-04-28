@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.рс_ИнформационныеБазы" id="ff56a8d4-0c7e-4061-b932-7ac7674fc47d" configVersion="d4be20238df52385714d3ce79993e78a44903b56">
+			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.рс_Объект" id="1b2fed9c-551c-4495-8e75-ad46756d328f"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.Пароль" id="1d42e8f8-bac9-42cf-b9c0-738e125df7b1"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные" id="401b212e-2ca7-4e03-8c59-8b1affa05c28"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.Синоним" id="4deb1ff0-1d66-441f-b4d5-f4742ab4bd48"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.рс_Тип" id="b1df6a3d-3892-45f2-93a5-614b6a00ce59"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.Имя" id="da4ee0b0-e74f-4211-a1ca-914581107344"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.ИмяБазы" id="e897a416-5f16-4a63-9377-500b65fefcc6"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.ИмяПользователя" id="ecd25282-0baf-476b-927c-ae84f8dd943a"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.НазваниеВерсияКонфигурации" id="f09659ac-586c-4514-8e86-25392639f4a8"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.ИмяСервера" id="f7885d58-3d5d-4a8b-8be1-6c314bc9b2ed"/>
+		</Metadata>
+		<Metadata name="Catalog.рс_ИнформационныеБазы.Form.ФормаЭлемента" id="d7330066-a99a-4dee-9916-98a5cb390a66" configVersion="0c3d70fcb39f3c35673effc7af44ca3ad5bed170"/>
+		<Metadata name="Catalog.рс_ИнформационныеБазы.Form.ФормаЭлемента.Form" id="d7330066-a99a-4dee-9916-98a5cb390a66.0" configVersion="77e534b3fe73c91a6ed2b7cb255ad430ac6cfe85"/>
+		<Metadata name="Catalog.рс_Разделы" id="81615b01-b075-4b23-9061-830bf678fd41" configVersion="39f43b40b0aac5ceaaef79566dad7bf0213c49e4"/>
+		<Metadata name="Configuration.ОписаниеКонфигурации" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="d6b9fb4e9aefb5b44d24d0bed65599be1d8da6a6"/>
+		<Metadata name="Language.Русский" id="7f7c5ae1-ac9a-40a2-9ca0-442f26cf9ab9" configVersion="2f73913d54745b2b643c3134c92827a437f66e33"/>
+		<Metadata name="Role.рс_ОсновнаяРоль" id="f0164adf-503b-4449-bc41-3f00f97c14a7" configVersion="ca7b015e67ce9dccfb46edd3a8dde0e40380a1ed"/>
+		<Metadata name="Subsystem.рс_Описание" id="34fbda86-565c-4f83-a999-611bd4546d05" configVersion="7f77db4978e77d02b93c1b413b2e42a1af73a8ec"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
