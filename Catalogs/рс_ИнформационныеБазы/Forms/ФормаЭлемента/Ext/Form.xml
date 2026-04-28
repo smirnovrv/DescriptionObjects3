@@ -57,7 +57,15 @@
 			<DataPath>Объект.рс_Метаданные</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="рс_МетаданныеКонтекстноеМеню" id="14"/>
-			<AutoCommandBar name="рс_МетаданныеКоманднаяПанель" id="15"/>
+			<AutoCommandBar name="рс_МетаданныеКоманднаяПанель" id="15">
+				<ChildItems>
+					<Button name="рс_МетаданныеКомандаЗаполнить" id="47">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+						<ExtendedTooltip name="рс_МетаданныеКомандаЗаполнитьРасширеннаяПодсказка" id="48"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="рс_МетаданныеРасширеннаяПодсказка" id="16"/>
 			<SearchStringAddition name="рс_МетаданныеСтрокаПоиска" id="17">
 				<AdditionSource>
@@ -90,6 +98,13 @@
 					<ContextMenu name="рс_МетаданныеНомерСтрокиКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="рс_МетаданныеНомерСтрокиРасширеннаяПодсказка" id="28"/>
 				</LabelField>
+				<InputField name="рс_МетаданныеВидОбъекта" id="49">
+					<DataPath>Объект.рс_Метаданные.ВидОбъекта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="рс_МетаданныеВидОбъектаКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="рс_МетаданныеВидОбъектаРасширеннаяПодсказка" id="51"/>
+				</InputField>
 				<InputField name="рс_МетаданныеИмя" id="29">
 					<DataPath>Объект.рс_Метаданные.Имя</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -110,13 +125,6 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="рс_Метаданныерс_ОбъектКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="рс_Метаданныерс_ОбъектРасширеннаяПодсказка" id="37"/>
-				</InputField>
-				<InputField name="рс_Метаданныерс_Тип" id="38">
-					<DataPath>Объект.рс_Метаданные.рс_Тип</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="рс_Метаданныерс_ТипКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="рс_Метаданныерс_ТипРасширеннаяПодсказка" id="40"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -149,6 +157,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОбновитьВерсиюКонфигурации</Action>
+		</Command>
+		<Command name="КомандаЗаполнить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗаполнить</Action>
 		</Command>
 	</Commands>
 </Form>
