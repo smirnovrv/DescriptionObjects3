@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.03</Version>
+			<Version>3.04</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -81,6 +81,7 @@
 			<Catalog>рс_ТабличныеЧасти</Catalog>
 			<Catalog>рс_Формы</Catalog>
 			<Enum>рс_ВидОбъектов</Enum>
+			<DataProcessor>рс_Описание</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -276,11 +276,6 @@
 										<CommandName>Form.Command.ЗагрузитьДетализациюИзФайла</CommandName>
 										<ExtendedTooltip name="РасширенияКомандаЗагрузитьДетализациюИзФайлаРасширеннаяПодсказка" id="118"/>
 									</Button>
-									<Button name="РасширенияКомандаПоказатьДетализацию" id="125">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ПоказатьДетализацию</CommandName>
-										<ExtendedTooltip name="РасширенияКомандаПоказатьДетализациюРасширеннаяПодсказка" id="126"/>
-									</Button>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РасширенияРасширеннаяПодсказка" id="95"/>
@@ -308,6 +303,9 @@
 								<ContextMenu name="РасширенияУправлениеПоискомКонтекстноеМеню" id="103"/>
 								<ExtendedTooltip name="РасширенияУправлениеПоискомРасширеннаяПодсказка" id="104"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="OnActivateRow">РасширенияПриАктивизацииСтроки</Event>
+							</Events>
 							<ChildItems>
 								<LabelField name="РасширенияНомерСтроки" id="105">
 									<DataPath>Объект.Расширения.LineNumber</DataPath>
@@ -345,7 +343,7 @@
 								</InputField>
 							</ChildItems>
 						</Table>
-						<InputField name="ПросмотрДетализации" id="122">
+						<HTMLDocumentField name="ПросмотрДетализации" id="122">
 							<DataPath>ТекстДетализации</DataPath>
 							<Title>
 								<v8:item>
@@ -353,12 +351,9 @@
 									<v8:content>Детализация</v8:content>
 								</v8:item>
 							</Title>
-							<EditMode>EnterOnInput</EditMode>
-							<Width>50</Width>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ПросмотрДетализацииКонтекстноеМеню" id="123"/>
 							<ExtendedTooltip name="ПросмотрДетализацииРасширеннаяПодсказка" id="124"/>
-						</InputField>
+						</HTMLDocumentField>
 					</ChildItems>
 				</Page>
 			</ChildItems>
@@ -397,21 +392,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьДетализациюИзФайла</Action>
-		</Command>
-		<Command name="ПоказатьДетализацию" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показать детализацию</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показать содержимое присоединенного файла</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПоказатьДетализацию</Action>
 		</Command>
 	</Commands>
 </Form>
