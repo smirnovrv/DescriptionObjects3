@@ -37,6 +37,13 @@
 					<ContextMenu name="НазваниеВерсияКонфигурацииКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="НазваниеВерсияКонфигурацииРасширеннаяПодсказка" id="9"/>
 				</InputField>
+				<InputField name="ПоКоличеству" id="55">
+					<DataPath>Объект.ПоКоличеству</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПоКоличествуКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ПоКоличествуРасширеннаяПодсказка" id="57"/>
+				</InputField>
 				<Button name="ОбновитьВерсиюКонфигурации" id="45">
 					<Type>UsualButton</Type>
 					<Representation>Picture</Representation>
@@ -125,6 +132,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="рс_Метаданныерс_ОбъектКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="рс_Метаданныерс_ОбъектРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="рс_МетаданныеКоличество" id="52">
+					<DataPath>Объект.рс_Метаданные.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="рс_МетаданныеКоличествоКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="рс_МетаданныеКоличествоРасширеннаяПодсказка" id="54"/>
 				</InputField>
 			</ChildItems>
 		</Table>
