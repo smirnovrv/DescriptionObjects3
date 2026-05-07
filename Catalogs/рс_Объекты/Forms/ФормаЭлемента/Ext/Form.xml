@@ -41,6 +41,110 @@
 			</Title>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="14"/>
 			<ChildItems>
+				<Page name="Группарс_Общая" id="125">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группарс_ОбщаяРасширеннаяПодсказка" id="126"/>
+					<ChildItems>
+						<Table name="рс_Общая" id="127">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.рс_Общая</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="рс_ОбщаяКонтекстноеМеню" id="128"/>
+							<AutoCommandBar name="рс_ОбщаяКоманднаяПанель" id="129">
+								<ChildItems>
+									<Button name="рс_ОбщаяКомандаЗаполнитьОбщая" id="161">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьОбщая</CommandName>
+										<ExtendedTooltip name="рс_ОбщаяКомандаЗаполнитьОбщаяРасширеннаяПодсказка" id="162"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="рс_ОбщаяРасширеннаяПодсказка" id="130"/>
+							<SearchStringAddition name="рс_ОбщаяСтрокаПоиска" id="131">
+								<AdditionSource>
+									<Item>рс_Общая</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_ОбщаяСтрокаПоискаКонтекстноеМеню" id="132"/>
+								<ExtendedTooltip name="рс_ОбщаяСтрокаПоискаРасширеннаяПодсказка" id="133"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="рс_ОбщаяСостояниеПросмотра" id="134">
+								<AdditionSource>
+									<Item>рс_Общая</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_ОбщаяСостояниеПросмотраКонтекстноеМеню" id="135"/>
+								<ExtendedTooltip name="рс_ОбщаяСостояниеПросмотраРасширеннаяПодсказка" id="136"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="рс_ОбщаяУправлениеПоиском" id="137">
+								<AdditionSource>
+									<Item>рс_Общая</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_ОбщаяУправлениеПоискомКонтекстноеМеню" id="138"/>
+								<ExtendedTooltip name="рс_ОбщаяУправлениеПоискомРасширеннаяПодсказка" id="139"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="рс_ОбщаяНомерСтроки" id="140">
+									<DataPath>Объект.рс_Общая.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="рс_ОбщаяНомерСтрокиКонтекстноеМеню" id="141"/>
+									<ExtendedTooltip name="рс_ОбщаяНомерСтрокиРасширеннаяПодсказка" id="142"/>
+								</LabelField>
+								<InputField name="рс_Общаярс_ТабличнаяЧасть" id="143">
+									<DataPath>Объект.рс_Общая.рс_ТабличнаяЧасть</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_Общаярс_ТабличнаяЧастьКонтекстноеМеню" id="144"/>
+									<ExtendedTooltip name="рс_Общаярс_ТабличнаяЧастьРасширеннаяПодсказка" id="145"/>
+								</InputField>
+								<InputField name="рс_ОбщаяИмя" id="146">
+									<DataPath>Объект.рс_Общая.Имя</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_ОбщаяИмяКонтекстноеМеню" id="147"/>
+									<ExtendedTooltip name="рс_ОбщаяИмяРасширеннаяПодсказка" id="148"/>
+								</InputField>
+								<InputField name="рс_ОбщаяСиноним" id="149">
+									<DataPath>Объект.рс_Общая.Синоним</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_ОбщаяСинонимКонтекстноеМеню" id="150"/>
+									<ExtendedTooltip name="рс_ОбщаяСинонимРасширеннаяПодсказка" id="151"/>
+								</InputField>
+								<InputField name="рс_ОбщаяТип" id="152">
+									<DataPath>Объект.рс_Общая.Тип</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_ОбщаяТипКонтекстноеМеню" id="153"/>
+									<ExtendedTooltip name="рс_ОбщаяТипРасширеннаяПодсказка" id="154"/>
+								</InputField>
+								<InputField name="рс_ОбщаяВид" id="155">
+									<DataPath>Объект.рс_Общая.Вид</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_ОбщаяВидКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="рс_ОбщаяВидРасширеннаяПодсказка" id="157"/>
+								</InputField>
+								<InputField name="рс_ОбщаяФорма" id="158">
+									<DataPath>Объект.рс_Общая.Форма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_ОбщаяФормаКонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="рс_ОбщаяФормаРасширеннаяПодсказка" id="160"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="Группарс_Реквизиты" id="15">
 					<Title>
 						<v8:item>
@@ -392,6 +496,15 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьДетализациюИзФайла</Action>
+		</Command>
+		<Command name="ЗаполнитьОбщая" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить общая</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗаполнитьОбщая</Action>
 		</Command>
 	</Commands>
 </Form>

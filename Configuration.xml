@@ -81,6 +81,7 @@
 			<Catalog>рс_ТабличныеЧасти</Catalog>
 			<Catalog>рс_Формы</Catalog>
 			<Enum>рс_ВидОбъектов</Enum>
+			<Enum>рс_ВидыПринадлежностиРеквизита</Enum>
 			<DataProcessor>рс_Описание</DataProcessor>
 		</ChildObjects>
 	</Configuration>
