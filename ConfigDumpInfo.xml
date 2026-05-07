@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.рс_ИнформационныеБазы" id="ff56a8d4-0c7e-4061-b932-7ac7674fc47d" configVersion="fc9efaea003089df03e07745a439ad5819c20879">
+		<Metadata name="Catalog.рс_ИнформационныеБазы" id="ff56a8d4-0c7e-4061-b932-7ac7674fc47d" configVersion="9b679896d15448b6b9f1eebc6fc03f4168e084ed">
 			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.рс_Объект" id="1b2fed9c-551c-4495-8e75-ad46756d328f"/>
 			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.Пароль" id="1d42e8f8-bac9-42cf-b9c0-738e125df7b1"/>
 			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные" id="401b212e-2ca7-4e03-8c59-8b1affa05c28"/>
 			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.Синоним" id="4deb1ff0-1d66-441f-b4d5-f4742ab4bd48"/>
+			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.ПоКоличеству" id="8f8f6f52-85de-4d66-bf7f-2166582d26d0"/>
 			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.ВидОбъекта" id="9d5b41b3-ae61-44de-8344-66aec6601d1a"/>
 			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.рс_Тип" id="b1df6a3d-3892-45f2-93a5-614b6a00ce59"/>
 			<Metadata name="Catalog.рс_ИнформационныеБазы.TabularSection.рс_Метаданные.Attribute.Количество" id="d981cef5-2aa1-4099-8d71-6c4cb428ab50"/>
@@ -16,7 +17,7 @@
 			<Metadata name="Catalog.рс_ИнформационныеБазы.Attribute.ИмяСервера" id="f7885d58-3d5d-4a8b-8be1-6c314bc9b2ed"/>
 		</Metadata>
 		<Metadata name="Catalog.рс_ИнформационныеБазы.Form.ФормаЭлемента" id="d7330066-a99a-4dee-9916-98a5cb390a66" configVersion="0c3d70fcb39f3c35673effc7af44ca3ad5bed170"/>
-		<Metadata name="Catalog.рс_ИнформационныеБазы.Form.ФормаЭлемента.Form" id="d7330066-a99a-4dee-9916-98a5cb390a66.0" configVersion="fc1d522c8d6584f0d7e3436d58cda01dec31972a"/>
+		<Metadata name="Catalog.рс_ИнформационныеБазы.Form.ФормаЭлемента.Form" id="d7330066-a99a-4dee-9916-98a5cb390a66.0" configVersion="cb7da7037bc36ee5893e5b9a1a5a376c9707caff"/>
 		<Metadata name="Catalog.рс_Модули" id="fa6484d3-08c8-4ee7-a5a4-182412252414" configVersion="29602c50433c68a219c3ee62ed5f13d3dc3fa21e"/>
 		<Metadata name="Catalog.рс_Объекты" id="1aa138fa-5e82-4137-adb6-6284cb5037f3" configVersion="442d1047f82527dc83105d668bddce84e69b7e63">
 			<Metadata name="Catalog.рс_Объекты.TabularSection.рс_Формы.Attribute.ИмяРеквизита" id="08361544-2e18-4c7e-9f34-e5705c1776ae"/>
@@ -51,13 +52,13 @@
 			<Metadata name="Catalog.рс_Формы.Attribute.Индентификатор" id="ca9f81de-213e-44bd-a68d-d4e0f74017ec"/>
 		</Metadata>
 		<Metadata name="CommonModule.рс_ОбщийМодульСервер" id="31ff9cb5-3a53-4756-8bb3-af4b1e33902a" configVersion="e43f5cf69cb659a5b46121c87ad10efb22f4b5b7"/>
-		<Metadata name="CommonModule.рс_ОбщийМодульСервер.Module" id="31ff9cb5-3a53-4756-8bb3-af4b1e33902a.0" configVersion="62a027d3618f7b8f70cef87229fa6829cc3b222d"/>
+		<Metadata name="CommonModule.рс_ОбщийМодульСервер.Module" id="31ff9cb5-3a53-4756-8bb3-af4b1e33902a.0" configVersion="74a3f09c5809c4689c9cc195fe4ff5101769871e"/>
 		<Metadata name="Configuration.ОписаниеКонфигурации" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="3339aefe3dc228cc114c45e6a6fed448616e5d9e"/>
 		<Metadata name="DataProcessor.рс_Описание" id="d58f6f1f-c417-4877-b5f8-13af1ec1c0c4" configVersion="9a6883c85b3f5ebc371e7f13f3cb4c4ea65191b3"/>
 		<Metadata name="DataProcessor.рс_Описание.Form.ФормаЭлемента" id="6ab59718-493d-4f37-b728-f0d18b857296" configVersion="10c4da637ba43494a5c3a653ee9e55375d4bcd93"/>
 		<Metadata name="DataProcessor.рс_Описание.Form.ФормаЭлемента.Form" id="6ab59718-493d-4f37-b728-f0d18b857296.0" configVersion="82135f9d2d21b00ea639748773c4d7975215ade2"/>
 		<Metadata name="DataProcessor.рс_Описание.Template.Макет" id="69d42060-b3ac-421c-b93e-c9d5860edc57" configVersion="0f62f0d730e7914d026c67158439537ce70dc628"/>
-		<Metadata name="DataProcessor.рс_Описание.Template.Макет.Template" id="69d42060-b3ac-421c-b93e-c9d5860edc57.0" configVersion="3ab41a1722b5c7dd4f8373dce91a7ae76d9125a7"/>
+		<Metadata name="DataProcessor.рс_Описание.Template.Макет.Template" id="69d42060-b3ac-421c-b93e-c9d5860edc57.0" configVersion="d5c676a03f392b40800aaf2bc93c5c2f440a9ae9"/>
 		<Metadata name="Enum.рс_ВидОбъектов" id="6b3f97d5-f79f-48b7-9491-3ed64a23328f" configVersion="50e4bebed4e13a411f87a056abdc0e8d495a0d3a">
 			<Metadata name="Enum.рс_ВидОбъектов.EnumValue.Роли" id="04635379-49b2-4a77-baff-c12bddc2b192"/>
 			<Metadata name="Enum.рс_ВидОбъектов.EnumValue.Константы" id="383757d7-458b-47cc-9fb1-3915ad6fa556"/>
