@@ -162,7 +162,15 @@
 							<DataPath>Объект.рс_Реквизиты</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="рс_РеквизитыКонтекстноеМеню" id="18"/>
-							<AutoCommandBar name="рс_РеквизитыКоманднаяПанель" id="19"/>
+							<AutoCommandBar name="рс_РеквизитыКоманднаяПанель" id="19">
+								<ChildItems>
+									<Button name="рс_ОбщаяКомандаЗаполнитьРеквизиты" id="163">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьРеквизиты</CommandName>
+										<ExtendedTooltip name="рс_ОбщаяКомандаЗаполнитьРеквизитыРасширеннаяПодсказка" id="164"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="рс_РеквизитыРасширеннаяПодсказка" id="20"/>
 							<SearchStringAddition name="рс_РеквизитыСтрокаПоиска" id="21">
 								<AdditionSource>
@@ -244,7 +252,15 @@
 							<DataPath>Объект.рс_Формы</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="рс_ФормыКонтекстноеМеню" id="48"/>
-							<AutoCommandBar name="рс_ФормыКоманднаяПанель" id="49"/>
+							<AutoCommandBar name="рс_ФормыКоманднаяПанель" id="49">
+								<ChildItems>
+									<Button name="рс_ФормыКомандаЗаполнитьФормы" id="165">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьФормы</CommandName>
+										<ExtendedTooltip name="рс_ФормыКомандаЗаполнитьФормыРасширеннаяПодсказка" id="166"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="рс_ФормыРасширеннаяПодсказка" id="50"/>
 							<SearchStringAddition name="рс_ФормыСтрокаПоиска" id="51">
 								<AdditionSource>
@@ -505,6 +521,24 @@
 				</v8:item>
 			</Title>
 			<Action>ЗаполнитьОбщая</Action>
+		</Command>
+		<Command name="ЗаполнитьРеквизиты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗаполнитьРеквизиты</Action>
+		</Command>
+		<Command name="ЗаполнитьФормы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить формы</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗаполнитьФормы</Action>
 		</Command>
 	</Commands>
 </Form>
