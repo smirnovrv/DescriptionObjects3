@@ -217,20 +217,6 @@
 									<ContextMenu name="рс_РеквизитыИмяКонтекстноеМеню" id="37"/>
 									<ExtendedTooltip name="рс_РеквизитыИмяРасширеннаяПодсказка" id="38"/>
 								</InputField>
-								<InputField name="рс_РеквизитыСиноним" id="39">
-									<DataPath>Объект.рс_Реквизиты.Синоним</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="рс_РеквизитыСинонимКонтекстноеМеню" id="40"/>
-									<ExtendedTooltip name="рс_РеквизитыСинонимРасширеннаяПодсказка" id="41"/>
-								</InputField>
-								<InputField name="рс_РеквизитыТип" id="42">
-									<DataPath>Объект.рс_Реквизиты.Тип</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="рс_РеквизитыТипКонтекстноеМеню" id="43"/>
-									<ExtendedTooltip name="рс_РеквизитыТипРасширеннаяПодсказка" id="44"/>
-								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>

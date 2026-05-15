@@ -20,10 +20,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Разделы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ИнформационныеБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ТабличныеЧасти</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ТипыОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ТипыРеквизитов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Объекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Формы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Модули</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Действия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Процессы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
