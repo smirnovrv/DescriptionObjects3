@@ -1,92 +1,74 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Configuration uuid="7627568a-b793-4181-ba50-2cdf3d698a7d">
+	<Configuration uuid="da8ff3a2-27fe-47e8-ae1b-e48b49a2aad7">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>f0ad61c6-043a-497f-b615-61640186281a</xr:ObjectId>
+				<xr:ObjectId>6d550484-2096-4c9f-87ff-6934ffcd52f2</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>47d87c0a-8933-4e4e-aa62-b8692d77b8d1</xr:ObjectId>
+				<xr:ObjectId>1941d9d8-a62a-48d9-88e2-82df25971093</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>75e7fc4d-546c-4ccb-98fa-a34215f03ddd</xr:ObjectId>
+				<xr:ObjectId>6dc0b2b8-5581-4e41-b41a-6c67fd717d54</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>d14dc8ac-476e-4eed-841f-0dd39feadf3f</xr:ObjectId>
+				<xr:ObjectId>8cd703eb-1c2e-4195-84dc-be3a79510a40</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>db368d9a-f30a-41b1-bfe9-6198cf09f639</xr:ObjectId>
+				<xr:ObjectId>850e66ff-7a99-445f-985a-757d74a3b474</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>a2832d7d-7500-4887-95cb-f843cb01e282</xr:ObjectId>
+				<xr:ObjectId>9e330f68-286b-4b66-849a-c6fac97bfe28</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>997856e2-9ecf-4dc2-abde-cd47bd672722</xr:ObjectId>
+				<xr:ObjectId>55f5d601-5a21-49b4-94f6-8f9db53a7d89</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>CommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>MainSectionCommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>ОписаниеКонфигурации</Name>
-			<Synonym>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Описание конфигурации</v8:content>
-				</v8:item>
-			</Synonym>
+			<Name>EF_ТР20688</Name>
+			<Synonym/>
 			<Comment/>
-			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
+			<ConfigurationExtensionPurpose>Patch</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>рс_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
-			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<NamePrefix>EF_ТР20688_</NamePrefix>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_24</ConfigurationExtensionCompatibilityMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОсновнаяРоль</xr:Item>
-			</DefaultRoles>
-			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.06.3</Version>
-			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<Vendor/>
+			<Version/>
 			<BriefInformation/>
 			<DetailedInformation/>
-			<Copyright>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ИП Смирнов</v8:content>
-				</v8:item>
-			</Copyright>
+			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
-			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>рс_Описание</Subsystem>
-			<Role>рс_ОсновнаяРоль</Role>
-			<CommonModule>рс_ОбщийМодульСервер</CommonModule>
-			<Catalog>рс_Действия</Catalog>
-			<Catalog>рс_ИнформационныеБазы</Catalog>
-			<Catalog>рс_Модули</Catalog>
-			<Catalog>рс_Объекты</Catalog>
-			<Catalog>рс_Процессы</Catalog>
-			<Catalog>рс_ПрисоединенныеФайлы</Catalog>
-			<Catalog>рс_Разделы</Catalog>
-			<Catalog>рс_ТабличныеЧасти</Catalog>
-			<Catalog>рс_ТипыОбъектов</Catalog>
-			<Catalog>рс_ТипыРеквизитов</Catalog>
-			<Catalog>рс_Формы</Catalog>
-			<Enum>рс_ВидОбъектов</Enum>
-			<Enum>рс_ВидыПринадлежностиРеквизита</Enum>
-			<DataProcessor>рс_Описание</DataProcessor>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<CommonPicture>ТелеграмShare</CommonPicture>
+			<CommonPicture>ОтправитьПисьмоShare</CommonPicture>
+			<CommonPicture>WhatsappShare</CommonPicture>
+			<CommonPicture>EF_ТР20688_МахShare</CommonPicture>
+			<CommonTemplate>EF_ТР20688</CommonTemplate>
+			<DataProcessor>СервисShare</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

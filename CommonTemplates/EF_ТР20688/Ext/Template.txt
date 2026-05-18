@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch xmlns="http://www.v8.1c.ru/ssl/patch" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Name>EF_ТР20688</Name>
+	<Description>Поддержан мессенджер Max в сервисе 1С:Share при формировании ссылки.</Description>
+	<UUID>246b1607-1e55-49f0-8128-3ff19af22c6a</UUID>
+	<ModifiedMetadata/>
+	<AppliedFor>
+		<ConfigurationName>БиблиотекаЭлектронныхДокументов</ConfigurationName>
+		<Versions>1.9.15.100,1.9.15.104,1.9.15.17,1.9.15.21,1.9.15.29,1.9.15.33,1.9.15.40,1.9.15.47,1.9.15.65,1.9.15.74,1.9.15.82,1.9.15.90,1.9.15.94,1.9.15.95</Versions>
+	</AppliedFor>
+</Patch>
