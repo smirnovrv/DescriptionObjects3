@@ -84,7 +84,7 @@
 							<VerticalStretch>false</VerticalStretch>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.Сотрудники</DataPath>
+							<DataPath>1/0:cb63234b-ad6d-4857-b6d1-9685eac78c18</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="СотрудникиКонтекстноеМеню" id="26"/>
 							<AutoCommandBar name="СотрудникиКоманднаяПанель" id="27"/>
@@ -115,7 +115,7 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<InputField name="СотрудникиСотрудник" id="41">
-									<DataPath>Объект.Сотрудники.Сотрудник</DataPath>
+									<DataPath>1/0:cb63234b-ad6d-4857-b6d1-9685eac78c18/0:6aa69bc9-a9e4-4c84-a9e3-332cedcd2086</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="СотрудникиСотрудникКонтекстноеМеню" id="42"/>

@@ -92,6 +92,7 @@
 			<Enum>рс_ВидОбъектов</Enum>
 			<Enum>рс_ВидыПринадлежностиРеквизита</Enum>
 			<Enum>рс_СтатусыТребований</Enum>
+			<Enum>рс_СтатусыТехЗаданий</Enum>
 			<DataProcessor>рс_Описание</DataProcessor>
 		</ChildObjects>
 	</Configuration>
