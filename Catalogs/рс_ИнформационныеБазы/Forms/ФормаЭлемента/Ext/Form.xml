@@ -105,6 +105,14 @@
 					<ContextMenu name="рс_МетаданныеНомерСтрокиКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="рс_МетаданныеНомерСтрокиРасширеннаяПодсказка" id="28"/>
 				</LabelField>
+				<CheckBoxField name="рс_МетаданныеАвтоматически" id="58">
+					<DataPath>Объект.рс_Метаданные.Автоматически</DataPath>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="рс_МетаданныеАвтоматическиКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="рс_МетаданныеАвтоматическиРасширеннаяПодсказка" id="60"/>
+				</CheckBoxField>
 				<InputField name="рс_МетаданныеВидОбъекта" id="49">
 					<DataPath>Объект.рс_Метаданные.ВидОбъекта</DataPath>
 					<EditMode>EnterOnInput</EditMode>

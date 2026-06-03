@@ -240,11 +240,11 @@
 			</EnumValue>
 			<EnumValue uuid="80890eef-0bfd-4170-8c8b-270196b194a1">
 				<Properties>
-					<Name>РегистрСведений</Name>
+					<Name>РегистрыСведений</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регистр сведений</v8:content>
+							<v8:content>Регистры сведений</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -252,11 +252,11 @@
 			</EnumValue>
 			<EnumValue uuid="4e736515-1199-4d7b-823f-858a9c253ed0">
 				<Properties>
-					<Name>РегистрНакопления</Name>
+					<Name>РегистрыНакопления</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регистр накопления</v8:content>
+							<v8:content>Регистры накопления</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -269,6 +269,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Константы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3c0002ea-b2ea-456d-b534-c8a205a09db4">
+				<Properties>
+					<Name>Отчеты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

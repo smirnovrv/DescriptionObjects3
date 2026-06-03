@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Описание</v8:content>
+					<v8:content>Дополнительно</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -16,12 +16,14 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_Описание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_ОписаниеСтруктурыПрограммы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Разделы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Объекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Процессы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Требования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ТехническоеЗадание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_ОписаниеТрекера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_Документация</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

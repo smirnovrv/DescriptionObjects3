@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.07.4</Version>
+			<Version>3.08_8</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -71,9 +71,18 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>рс_Описание</Subsystem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
+			<CommonPicture>СостоянияДокумента</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>РедактироватьФайл</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<Role>рс_ОсновнаяРоль</Role>
 			<CommonModule>рс_ОбщийМодульСервер</CommonModule>
 			<CommandGroup>рс_Разработка</CommandGroup>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>рс_Действия</Catalog>
 			<Catalog>рс_ИнформационныеБазы</Catalog>
@@ -89,11 +98,16 @@
 			<Catalog>рс_ТипыОбъектов</Catalog>
 			<Catalog>рс_Требования</Catalog>
 			<Catalog>рс_Формы</Catalog>
+			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Enum>рс_ВидОбъектов</Enum>
 			<Enum>рс_ВидыПринадлежностиРеквизита</Enum>
 			<Enum>рс_СтатусыТребований</Enum>
 			<Enum>рс_СтатусыТехЗаданий</Enum>
-			<DataProcessor>рс_Описание</DataProcessor>
+			<Enum>ФормыОплаты</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<DataProcessor>рс_Документация</DataProcessor>
+			<DataProcessor>рс_ОписаниеСтруктурыПрограммы</DataProcessor>
+			<DataProcessor>рс_ОписаниеТрекера</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
