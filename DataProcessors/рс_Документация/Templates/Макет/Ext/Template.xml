@@ -1273,10 +1273,16 @@
 	<rowsItem>
 		<index>57</index>
 		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>0</f>
+					<f>2</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1288,26 +1294,37 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>58</index>
-		<row>
-			<c>
-				<i>1</i>
-				<c>
-					<f>0</f>
-					<tl/>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>59</index>
-		<indexTo>65</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>66</index>
+		<index>60</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь заполняет обязательные поля:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>61</index>
+		<indexTo>69</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>70</index>
 		<row>
 			<c>
 				<i>1</i>
@@ -1325,8 +1342,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>9</defaultFormatIndex>
-	<height>68</height>
-	<vgRows>68</vgRows>
+	<height>72</height>
+	<vgRows>72</vgRows>
 	<merge>
 		<r>7</r>
 		<c>2</c>
@@ -1377,7 +1394,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>0</beginRow>
-			<endRow>67</endRow>
+			<endRow>71</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

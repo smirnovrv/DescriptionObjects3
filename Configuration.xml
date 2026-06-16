@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.08_8</Version>
+			<Version>3.09_2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>

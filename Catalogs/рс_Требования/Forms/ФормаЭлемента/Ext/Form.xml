@@ -197,34 +197,34 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПраваяРасширеннаяПодсказка" id="49"/>
 					<ChildItems>
-						<Button name="ДобавитьСообщение" id="55">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ДобавитьСообщение</CommandName>
-							<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-							<ExtendedTooltip name="ДобавитьСообщениеРасширеннаяПодсказка" id="56"/>
-						</Button>
-						<UsualGroup name="ГруппаСообщения" id="95">
+						<UsualGroup name="ГруппаСообщение" id="97">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа сообщения</v8:content>
+									<v8:content>Сообщение</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа сообщения</v8:content>
+									<v8:content>Группа сообщение</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаСообщенияРасширеннаяПодсказка" id="96"/>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<ExtendedTooltip name="ГруппаСообщениеРасширеннаяПодсказка" id="98"/>
 							<ChildItems>
 								<CommandBar name="Группа1" id="90">
 									<CommandSource>Item.Сообщение</CommandSource>
 									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="91"/>
 								</CommandBar>
+								<Button name="ДобавитьСообщение" id="55">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьСообщение</CommandName>
+									<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+									<ExtendedTooltip name="ДобавитьСообщениеРасширеннаяПодсказка" id="56"/>
+								</Button>
 								<FormattedDocumentField name="Сообщение" id="92">
 									<DataPath>Сообщение</DataPath>
 									<ContextMenu name="СообщениеКонтекстноеМеню" id="93"/>
