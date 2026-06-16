@@ -452,7 +452,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.рс_Требования</v8:Type>
+								<v8:Type>cfg:CatalogRef.рс_Требование</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

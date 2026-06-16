@@ -109,6 +109,25 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.рс_УведомленияПоТребованиям</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.ОписаниеКонфигурации</name>
 		<right>
 			<name>MainWindowModeNormal</name>
@@ -181,7 +200,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.рс_Требования</name>
+		<name>Catalog.рс_Требование</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

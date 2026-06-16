@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.09_2</Version>
+			<Version>3.09_3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -96,7 +96,7 @@
 			<Catalog>рс_ТабличныеЧасти</Catalog>
 			<Catalog>рс_ТехническоеЗадание</Catalog>
 			<Catalog>рс_ТипыОбъектов</Catalog>
-			<Catalog>рс_Требования</Catalog>
+			<Catalog>рс_Требование</Catalog>
 			<Catalog>рс_Формы</Catalog>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Enum>рс_ВидОбъектов</Enum>
@@ -108,6 +108,7 @@
 			<DataProcessor>рс_Документация</DataProcessor>
 			<DataProcessor>рс_ОписаниеСтруктурыПрограммы</DataProcessor>
 			<DataProcessor>рс_ОписаниеТрекера</DataProcessor>
+			<InformationRegister>рс_УведомленияПоТребованиям</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

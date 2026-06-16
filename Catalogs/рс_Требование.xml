@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<Catalog uuid="c7e8f9a0-1b2c-4d3e-8f5a-6b7c8d9e0f1a">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.рс_Требования" category="Object">
+			<xr:GeneratedType name="CatalogObject.рс_Требование" category="Object">
 				<xr:TypeId>f8a9b0c1-2d3e-4f5a-9b6c-7d8e9f0a1b2c</xr:TypeId>
 				<xr:ValueId>a9b0c1d2-3e4f-5a6b-0c7d-8e9f0a1b2c3d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.рс_Требования" category="Ref">
+			<xr:GeneratedType name="CatalogRef.рс_Требование" category="Ref">
 				<xr:TypeId>b0c1d2e3-4f5a-6b7c-1d8e-9f0a1b2c3d4e</xr:TypeId>
 				<xr:ValueId>c1d2e3f4-5a6b-7c8d-2e9f-0a1b2c3d4e5f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.рс_Требования" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.рс_Требование" category="Selection">
 				<xr:TypeId>d2e3f4a5-6b7c-8d9e-3f0a-1b2c3d4e5f6a</xr:TypeId>
 				<xr:ValueId>e3f4a5b6-7c8d-9e0f-4a1b-2c3d4e5f6a7b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.рс_Требования" category="List">
+			<xr:GeneratedType name="CatalogList.рс_Требование" category="List">
 				<xr:TypeId>f4a5b6c7-8d9e-0f1a-5b2c-3d4e5f6a7b8c</xr:TypeId>
 				<xr:ValueId>a5b6c7d8-9e0f-1a2b-6c3d-4e5f6a7b8c9d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.рс_Требования" category="Manager">
+			<xr:GeneratedType name="CatalogManager.рс_Требование" category="Manager">
 				<xr:TypeId>b6c7d8e9-0f1a-2b3c-7d4e-5f6a7b8c9d0e</xr:TypeId>
 				<xr:ValueId>c7d8e9f0-1a2b-3c4d-8e5f-6a7b8c9d0e1f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>рс_Требования</Name>
+			<Name>рс_Требование</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -54,13 +54,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.рс_Требования.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.рс_Требования.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.рс_Требование.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.рс_Требование.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.рс_Требования.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.рс_Требование.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -371,13 +371,53 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="fc27e693-971d-4c05-b2c7-ac4b08d3ddc1">
+				<Properties>
+					<Name>Исполнитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исполнитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="ab08229e-b15c-427e-9ebe-3ddcd021a0ee">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.рс_Требования.Обсуждения" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.рс_Требование.Обсуждения" category="TabularSection">
 						<xr:TypeId>2d7570ed-bec1-449c-8824-d0e8160b985c</xr:TypeId>
 						<xr:ValueId>2f25ae20-cbd8-4b22-b573-cf70d7c98e5c</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Требования.Обсуждения" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Требование.Обсуждения" category="TabularSectionRow">
 						<xr:TypeId>c6092e14-6fbc-4ada-96b6-10b80e6bc88b</xr:TypeId>
 						<xr:ValueId>600a55fa-5eb8-433d-a730-05f880c18d28</xr:ValueId>
 					</xr:GeneratedType>
@@ -527,6 +567,71 @@
 							<Comment/>
 							<Type>
 								<v8:Type>v8:ValueStorage</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="553f121b-7515-46aa-ba16-24016dd0f49c">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.рс_Требование.Участники" category="TabularSection">
+						<xr:TypeId>dcff19ff-a9da-4c8d-bb69-90ae56ed020a</xr:TypeId>
+						<xr:ValueId>5f63015c-68d8-40c7-96f3-842ff38f2057</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Требование.Участники" category="TabularSectionRow">
+						<xr:TypeId>b34b2d99-9264-4b35-a3d5-b0f101f8aa50</xr:TypeId>
+						<xr:ValueId>1ca36e60-5f8f-4ab5-99c6-145ac416d561</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Участники</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Участники</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<Use>ForItem</Use>
+					<LineNumberLength>9</LineNumberLength>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="229109c8-4c59-483a-a9d9-ea945f305b5e">
+						<Properties>
+							<Name>Участник</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Участник</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
