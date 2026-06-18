@@ -51,10 +51,10 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОписаниеКонфигурации</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.09_4</Version>
+			<Version>3.09_5</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -79,7 +79,14 @@
 			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
 			<CommonPicture>РедактироватьФайл</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
-			<Role>рс_ОсновнаяРоль</Role>
+			<CommonPicture>КоллекцияПиктограммСостоянияЗадач</CommonPicture>
+			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
+			<CommonPicture>ЗвездаСерая</CommonPicture>
+			<CommonPicture>Задача16</CommonPicture>
+			<CommonPicture>ПрочтенноеПисьмо</CommonPicture>
+			<CommonPicture>КоллекцияЗвезды</CommonPicture>
+			<CommonPicture>БыстрыеОтборы</CommonPicture>
+			<Role>рс_ОписаниеКонфигурации</Role>
 			<CommonModule>рс_ОбщийМодульСервер</CommonModule>
 			<CommandGroup>рс_Разработка</CommandGroup>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
@@ -108,7 +115,7 @@
 			<DataProcessor>рс_Документация</DataProcessor>
 			<DataProcessor>рс_ОписаниеСтруктурыПрограммы</DataProcessor>
 			<DataProcessor>рс_ОписаниеТрекера</DataProcessor>
-			<InformationRegister>рс_УведомленияПоТребованиям</InformationRegister>
+			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
