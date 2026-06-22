@@ -415,6 +415,86 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="476c7d93-d15e-4663-a111-63bcd372efe0">
+				<Properties>
+					<Name>Основание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d87293d4-5aae-42fa-b94f-28438ea7b7b8">
+				<Properties>
+					<Name>Исполнитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исполнитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="60f9e424-aa3e-499a-8175-c1e62ddf8c27">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.рс_ТехническоеЗадание.Требования" category="TabularSection">
@@ -482,21 +562,21 @@
 			</TabularSection>
 			<TabularSection uuid="3aae6349-4e44-453b-994b-f02969f9f099">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.рс_ТехническоеЗадание.Сотрудники" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.рс_ТехническоеЗадание.Наблюдатели" category="TabularSection">
 						<xr:TypeId>49425af6-d29d-465a-8396-283f6bd643d0</xr:TypeId>
 						<xr:ValueId>577342ae-94ec-48f4-9b9d-aee67f941c8a</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.рс_ТехническоеЗадание.Сотрудники" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.рс_ТехническоеЗадание.Наблюдатели" category="TabularSectionRow">
 						<xr:TypeId>187a6891-bbea-48b0-934a-da5a34728876</xr:TypeId>
 						<xr:ValueId>2beb5d3a-dc1c-4c63-bfbf-518f856f792c</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Сотрудники</Name>
+					<Name>Наблюдатели</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудники</v8:content>
+							<v8:content>Наблюдатели</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
