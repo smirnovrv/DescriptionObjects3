@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОписаниеКонфигурации</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.09_6</Version>
+			<Version>3.09_7</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -89,7 +89,9 @@
 			<Role>рс_ОписаниеКонфигурации</Role>
 			<CommonModule>рс_ОбщийМодульСервер</CommonModule>
 			<CommandGroup>рс_Разработка</CommandGroup>
+			<Catalog>ВидыСобытийОповещений</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>КатегорииСобытийОповещений</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>рс_Действия</Catalog>
 			<Catalog>рс_ИнформационныеБазы</Catalog>

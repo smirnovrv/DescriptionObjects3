@@ -660,7 +660,6 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
-			<Form>ФормаВводаСообщения</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
