@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Вид" id="7">
+			<DataPath>Объект.Вид</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Индентификатор" id="10">
+			<DataPath>Объект.Индентификатор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИндентификаторКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ИндентификаторРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Раздел" id="13">
+			<DataPath>Объект.Раздел</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РазделКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="РазделРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<UsualGroup name="ГруппаОписание" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа описание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ExtendedTooltip name="ГруппаОписаниеРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<CommandBar name="КП_Описания" id="43">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описания</v8:content>
+						</v8:item>
+					</Title>
+					<CommandSource>Item.ОписаниеДокумент</CommandSource>
+					<ExtendedTooltip name="КП_ОписанияРасширеннаяПодсказка" id="44"/>
+				</CommandBar>
+				<FormattedDocumentField name="ОписаниеДокумент" id="40">
+					<DataPath>ОписаниеДокумент</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОписаниеДокументКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ОписаниеДокументРасширеннаяПодсказка" id="42"/>
+				</FormattedDocumentField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРеквизиты" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ExtendedTooltip name="ГруппаРеквизитыРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<Table name="рс_Реквизиты" id="16">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.рс_Реквизиты</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="рс_РеквизитыКонтекстноеМеню" id="17"/>
+					<AutoCommandBar name="рс_РеквизитыКоманднаяПанель" id="18">
+						<ChildItems>
+							<Button name="рс_РеквизитыЗаполнитьРеквизиты" id="45">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ЗаполнитьРеквизиты</CommandName>
+								<ExtendedTooltip name="рс_РеквизитыЗаполнитьРеквизитыРасширеннаяПодсказка" id="46"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="рс_РеквизитыРасширеннаяПодсказка" id="19"/>
+					<SearchStringAddition name="рс_РеквизитыСтрокаПоиска" id="20">
+						<AdditionSource>
+							<Item>рс_Реквизиты</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="рс_РеквизитыСтрокаПоискаКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="рс_РеквизитыСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="рс_РеквизитыСостояниеПросмотра" id="23">
+						<AdditionSource>
+							<Item>рс_Реквизиты</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="рс_РеквизитыСостояниеПросмотраКонтекстноеМеню" id="24"/>
+						<ExtendedTooltip name="рс_РеквизитыСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="рс_РеквизитыУправлениеПоиском" id="26">
+						<AdditionSource>
+							<Item>рс_Реквизиты</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="рс_РеквизитыУправлениеПоискомКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="рс_РеквизитыУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="рс_РеквизитыНомерСтроки" id="29">
+							<DataPath>Объект.рс_Реквизиты.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="рс_РеквизитыНомерСтрокиКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="рс_РеквизитыНомерСтрокиРасширеннаяПодсказка" id="31"/>
+						</LabelField>
+						<InputField name="рс_Реквизитырс_ТабличнаяЧасть" id="32">
+							<DataPath>Объект.рс_Реквизиты.рс_ТабличнаяЧасть</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="рс_Реквизитырс_ТабличнаяЧастьКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="рс_Реквизитырс_ТабличнаяЧастьРасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<InputField name="рс_РеквизитыИмя" id="35">
+							<DataPath>Объект.рс_Реквизиты.Имя</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="рс_РеквизитыИмяКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="рс_РеквизитыИмяРасширеннаяПодсказка" id="37"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.рс_Объекты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОписаниеДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьРеквизиты" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьРеквизиты</Action>
+		</Command>
+	</Commands>
+</Form>
