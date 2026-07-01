@@ -21,6 +21,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Catalog.рс_Документация.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="Catalog.рс_Процессы.StandardCommand.OpenList">
@@ -39,6 +44,10 @@
 			<CommandGroup>CommandGroup.рс_Разработка</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="Catalog.рс_Документация.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
 		<Command name="Catalog.рс_Процессы.StandardCommand.OpenList">
@@ -53,9 +62,13 @@
 		<Command name="Catalog.рс_ТехническоеЗадание.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.рс_Разработка</CommandGroup>
 		</Command>
+		<Command name="Catalog.рс_Документация.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>
 		<Group>CommandGroup.рс_Разработка</Group>
+		<Group>NavigationPanelSeeAlso</Group>
 	</GroupsOrder>
 </CommandInterface>

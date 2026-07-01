@@ -16,14 +16,12 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_ОписаниеСтруктурыПрограммы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Разделы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Объекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Процессы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Требование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ТехническоеЗадание</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_ОписаниеТрекера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_Документация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Документация</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

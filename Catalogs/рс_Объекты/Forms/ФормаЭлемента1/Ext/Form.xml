@@ -164,6 +164,20 @@
 							<ContextMenu name="рс_РеквизитыИмяКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="рс_РеквизитыИмяРасширеннаяПодсказка" id="37"/>
 						</InputField>
+						<InputField name="рс_РеквизитыТипОбъектовМетаданных" id="52">
+							<DataPath>Объект.рс_Реквизиты.ТипОбъектовМетаданных</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="рс_РеквизитыТипОбъектовМетаданныхКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="рс_РеквизитыТипОбъектовМетаданныхРасширеннаяПодсказка" id="54"/>
+						</InputField>
+						<CheckBoxField name="рс_РеквизитыОбязательный" id="49">
+							<DataPath>Объект.рс_Реквизиты.Обязательный</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="рс_РеквизитыОбязательныйКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="рс_РеквизитыОбязательныйРасширеннаяПодсказка" id="51"/>
+						</CheckBoxField>
 					</ChildItems>
 				</Table>
 			</ChildItems>

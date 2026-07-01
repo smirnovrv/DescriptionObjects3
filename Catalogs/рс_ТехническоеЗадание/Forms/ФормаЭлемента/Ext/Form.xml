@@ -98,8 +98,57 @@
 			<ContextMenu name="АвторКонтекстноеМеню" id="120"/>
 			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="121"/>
 		</InputField>
+		<UsualGroup name="ГруппаНаблюдатели" id="133">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наблюдатели</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наблюдатели</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаблюдателиРасширеннаяПодсказка" id="134"/>
+			<ChildItems>
+				<UsualGroup name="Группа6" id="140">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="141"/>
+					<ChildItems>
+						<Button name="ДобавитьНаблюдателя" id="138">
+							<Type>UsualButton</Type>
+							<Representation>Picture</Representation>
+							<CommandName>Form.Command.ДобавитьНаблюдателя</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ДобавитьНаблюдателяРасширеннаяПодсказка" id="139"/>
+						</Button>
+						<Button name="ОчиститьНаблюдателей" id="142">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОчиститьНаблюдателей</CommandName>
+							<ExtendedTooltip name="ОчиститьНаблюдателейРасширеннаяПодсказка" id="143"/>
+						</Button>
+						<LabelField name="СтрокаНаблюдатели" id="135">
+							<DataPath>СтрокаНаблюдатели</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="СтрокаНаблюдателиКонтекстноеМеню" id="136"/>
+							<ExtendedTooltip name="СтрокаНаблюдателиРасширеннаяПодсказка" id="137"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="Группа3" id="71">
-			<Group>AlwaysHorizontal</Group>
+			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="72"/>
@@ -163,11 +212,6 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПраваяРасширеннаяПодсказка" id="76"/>
 					<ChildItems>
-						<FormattedDocumentField name="Чат" id="77">
-							<DataPath>Чат</DataPath>
-							<ContextMenu name="ЧатКонтекстноеМеню" id="78"/>
-							<ExtendedTooltip name="ЧатРасширеннаяПодсказка" id="79"/>
-						</FormattedDocumentField>
 						<UsualGroup name="ГруппаСообщение" id="117">
 							<Title>
 								<v8:item>
@@ -207,55 +251,6 @@
 								</FormattedDocumentField>
 							</ChildItems>
 						</UsualGroup>
-					</ChildItems>
-				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаНаблюдатели" id="133">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа наблюдатели</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа наблюдатели</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Vertical</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаНаблюдателиРасширеннаяПодсказка" id="134"/>
-			<ChildItems>
-				<UsualGroup name="Группа6" id="140">
-					<Group>AlwaysHorizontal</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="141"/>
-					<ChildItems>
-						<Button name="ДобавитьНаблюдателя" id="138">
-							<Type>UsualButton</Type>
-							<Representation>Picture</Representation>
-							<CommandName>Form.Command.ДобавитьНаблюдателя</CommandName>
-							<Picture>
-								<xr:Ref>StdPicture.CreateListItem</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-							</Picture>
-							<ExtendedTooltip name="ДобавитьНаблюдателяРасширеннаяПодсказка" id="139"/>
-						</Button>
-						<Button name="ОчиститьНаблюдателей" id="142">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ОчиститьНаблюдателей</CommandName>
-							<ExtendedTooltip name="ОчиститьНаблюдателейРасширеннаяПодсказка" id="143"/>
-						</Button>
-						<LabelField name="СтрокаНаблюдатели" id="135">
-							<DataPath>СтрокаНаблюдатели</DataPath>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<ContextMenu name="СтрокаНаблюдателиКонтекстноеМеню" id="136"/>
-							<ExtendedTooltip name="СтрокаНаблюдателиРасширеннаяПодсказка" id="137"/>
-						</LabelField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
