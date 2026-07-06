@@ -81,23 +81,82 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<LabelField name="Основание" id="127">
-			<DataPath>Объект.Основание</DataPath>
-			<ContextMenu name="ОснованиеКонтекстноеМеню" id="128"/>
-			<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="129"/>
-		</LabelField>
-		<InputField name="Исполнитель" id="130">
-			<DataPath>Объект.Исполнитель</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ИсполнительКонтекстноеМеню" id="131"/>
-			<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="132"/>
-		</InputField>
-		<InputField name="Автор" id="119">
-			<DataPath>Объект.Автор</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="АвторКонтекстноеМеню" id="120"/>
-			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="121"/>
-		</InputField>
+		<UsualGroup name="ГруппаОснование" id="144">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОснованиеРасширеннаяПодсказка" id="145"/>
+			<ChildItems>
+				<Button name="ДобавитьОснование" id="146">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Command.ДобавитьОснование</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.Change</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ДобавитьОснованиеРасширеннаяПодсказка" id="147"/>
+				</Button>
+				<LabelField name="Основание" id="127">
+					<DataPath>Объект.Основание</DataPath>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="129"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа7" id="148">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="149"/>
+			<ChildItems>
+				<UsualGroup name="Группа8" id="150">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="151"/>
+					<ChildItems>
+						<InputField name="Исполнитель" id="130">
+							<DataPath>Объект.Исполнитель</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИсполнительКонтекстноеМеню" id="131"/>
+							<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="132"/>
+						</InputField>
+						<InputField name="Автор" id="119">
+							<DataPath>Объект.Автор</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АвторКонтекстноеМеню" id="120"/>
+							<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="121"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа9" id="152">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="153"/>
+					<ChildItems>
+						<FormattedDocumentField name="СвязанныеДокумент" id="154">
+							<DataPath>СвязанныеДокумент</DataPath>
+							<Width>19</Width>
+							<Height>3</Height>
+							<ContextMenu name="СвязанныеДокументКонтекстноеМеню" id="155"/>
+							<ExtendedTooltip name="СвязанныеДокументРасширеннаяПодсказка" id="156"/>
+						</FormattedDocumentField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаНаблюдатели" id="133">
 			<Title>
 				<v8:item>
@@ -309,6 +368,17 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="СвязанныеДокумент" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связанные документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ДобавитьСообщение" id="1">
@@ -370,6 +440,25 @@
 			</Picture>
 			<Action>ОчиститьНаблюдателей</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ДобавитьОснование" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить основание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить основание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceUpArrowGreen</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьОснование</Action>
 		</Command>
 	</Commands>
 </Form>

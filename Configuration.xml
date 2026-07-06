@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОписаниеКонфигурации</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.11_3</Version>
+			<Version>3.11_6</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -92,6 +92,7 @@
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлыУХ</CommonCommand>
 			<CommandGroup>рс_Разработка</CommandGroup>
+			<CommonForm>рс_ФормаВыбораОснования</CommonForm>
 			<Catalog>ВидыСобытийОповещений</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>КатегорииСобытийОповещений</Catalog>
@@ -112,10 +113,10 @@
 			<Catalog>рс_Требование</Catalog>
 			<Catalog>рс_Формы</Catalog>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
-			<Enum>рс_ВидОбъектов</Enum>
-			<Enum>рс_ВидыПринадлежностиРеквизита</Enum>
-			<Enum>рс_СтатусыТребований</Enum>
+			<Enum>рс_ВидОбъекта</Enum>
+			<Enum>рс_ВидыОбъектов</Enum>
 			<Enum>рс_СтатусыТехЗаданий</Enum>
+			<Enum>рс_СтатусыТребований</Enum>
 			<Enum>ФормыОплаты</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<DataProcessor>рс_ДокументацияАрхив</DataProcessor>
@@ -123,6 +124,7 @@
 			<DataProcessor>рс_ОписаниеТрекераАрхив</DataProcessor>
 			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
+			<InformationRegister>рс_КоличествоЭлементовИБ</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
