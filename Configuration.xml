@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОписаниеКонфигурации</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.11_6</Version>
+			<Version>3.11_9</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -115,11 +115,12 @@
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Enum>рс_ВидОбъекта</Enum>
 			<Enum>рс_ВидыОбъектов</Enum>
+			<Enum>рс_РазрезыУчета</Enum>
 			<Enum>рс_СтатусыТехЗаданий</Enum>
 			<Enum>рс_СтатусыТребований</Enum>
 			<Enum>ФормыОплаты</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
-			<DataProcessor>рс_ДокументацияАрхив</DataProcessor>
+			<DataProcessor>рс_Документация</DataProcessor>
 			<DataProcessor>рс_ОписаниеСтруктурыПрограммыАрхив</DataProcessor>
 			<DataProcessor>рс_ОписаниеТрекераАрхив</DataProcessor>
 			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
