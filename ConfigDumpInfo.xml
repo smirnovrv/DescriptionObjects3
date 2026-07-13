@@ -148,7 +148,7 @@
 		<Metadata name="CommonPicture.ПрочтенноеПисьмо" id="6c3bb5af-4c3a-4702-94ab-9cc7480f9e84" configVersion="4212e9521c73e56d2733569f9577802270f2ebd8"/>
 		<Metadata name="CommonPicture.РедактироватьФайл" id="b93a1943-6776-4142-9a7e-4cd98b834f5b" configVersion="6e431d83bff870f321284df6bf391abcd007e91d"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="78935bc1-63a1-4be1-839c-c3f1d765b4e8" configVersion="c6a8761feb73e37f5eb82f884bc36295f92b9d87"/>
-		<Metadata name="Configuration.ОписаниеКонфигурации" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="4257e98e584d91606be1e809b67e9a2c90b1cb97"/>
+		<Metadata name="Configuration.ОписаниеКонфигурации" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="ead1e0b60ccd7a452f7f36ed2c43bca47702d687"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя" id="bd1cbd77-4fe4-47a8-bb5d-235924110f6c" configVersion="f03550ddcc324c748fb79eac39912dd6d3129c78"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма" id="27ad51ad-0142-40ef-bb87-14ac72c0c996" configVersion="cbeba39e31a70fdee7ed0c14f4a724b33cf46766"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма.Form" id="27ad51ad-0142-40ef-bb87-14ac72c0c996.0" configVersion="2a5364916bb7446a8d317532b8c06d3139bd507f"/>
@@ -156,7 +156,7 @@
 		<Metadata name="DataProcessor.рс_Документация.Form.ФормаЭлемента" id="a2d4c04f-1f54-4de4-8473-2fb104d768a6" configVersion="104b7b11ebb28259948b912be65921658b471778"/>
 		<Metadata name="DataProcessor.рс_Документация.Form.ФормаЭлемента.Form" id="a2d4c04f-1f54-4de4-8473-2fb104d768a6.0" configVersion="f8ee3d3cdb361f42b99ae40ea2577fe93baa1786"/>
 		<Metadata name="DataProcessor.рс_Документация.Template.Макет1" id="bce47e2f-1461-4d75-a4ed-66a4dd0bb415" configVersion="5a67bec145d2b68395f9edb6be72fb5ba1564e62"/>
-		<Metadata name="DataProcessor.рс_Документация.Template.Макет1.Template" id="bce47e2f-1461-4d75-a4ed-66a4dd0bb415.0" configVersion="ba649abd55bb4f2116434daf0a1de17c044ac4db"/>
+		<Metadata name="DataProcessor.рс_Документация.Template.Макет1.Template" id="bce47e2f-1461-4d75-a4ed-66a4dd0bb415.0" configVersion="e52884813f27534b72bcf92670e66d0ab9b39314"/>
 		<Metadata name="DataProcessor.рс_Документация.Template.Макет_" id="491a7089-bf48-444a-a714-31d284d2e1b8" configVersion="bcbd0448238eafbdc9bd0e1e955f4b0f26d12b47"/>
 		<Metadata name="DataProcessor.рс_Документация.Template.Макет_.Template" id="491a7089-bf48-444a-a714-31d284d2e1b8.0" configVersion="54ada223e1304c185972c270c6184172beb61b6e"/>
 		<Metadata name="DataProcessor.рс_ОписаниеСтруктурыПрограммыАрхив" id="d58f6f1f-c417-4877-b5f8-13af1ec1c0c4" configVersion="b6431c207ad375e3829921b54090b9a846700145"/>
@@ -243,7 +243,7 @@
 		<Metadata name="Role.рс_ОписаниеКонфигурации.Rights" id="f0164adf-503b-4449-bc41-3f00f97c14a7.0" configVersion="96f4c0389c43835e08340a37d1454594de1083bc"/>
 		<Metadata name="StyleItem.ДосьеВторостепеннаяНадписьЦвет" id="c7c23bcb-60dd-40ca-82d8-1b7e3a5371f2" configVersion="44ddcca10bacdc8bff4ed2156eb74dfd7879726d"/>
 		<Metadata name="StyleItem.ФонУправляющегоПоля" id="0ca7c7c2-3ac2-4aa2-af86-3f89284bec58" configVersion="ddc391fae8b53f039f4cc976fa3385f783247c98"/>
-		<Metadata name="Subsystem.рс_Описание" id="34fbda86-565c-4f83-a999-611bd4546d05" configVersion="2608f8dc96555bac4aedb103ef0aab735d2b6821"/>
+		<Metadata name="Subsystem.рс_Описание" id="34fbda86-565c-4f83-a999-611bd4546d05" configVersion="0b75e06aaa5b14e7ebcfa40e034374c91b81f60f"/>
 		<Metadata name="Subsystem.рс_Описание.CommandInterface" id="34fbda86-565c-4f83-a999-611bd4546d05.1" configVersion="ed1f91770936ea3828174fcfec7da6d3926e8573"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

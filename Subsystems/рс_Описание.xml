@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_Документация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.рс_КоличествоЭлементовИБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_Документация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.рс_ИнформационныеБазы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
