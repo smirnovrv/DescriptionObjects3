@@ -12,11 +12,13 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="Наименование" id="4">
@@ -68,6 +70,9 @@
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СтатусКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="15"/>
+							<Events>
+								<Event name="OnChange">СтатусПриИзменении</Event>
+							</Events>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
@@ -289,11 +294,6 @@
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.ДобавитьСообщение</CommandName>
 							<ExtendedTooltip name="ДобавитьСообщениеРасширеннаяПодсказка" id="81"/>
-						</Button>
-						<Button name="ОтправитьОповещение" id="158">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.ОтправитьОповещение</CommandName>
-							<ExtendedTooltip name="ОтправитьОповещениеРасширеннаяПодсказка" id="159"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
