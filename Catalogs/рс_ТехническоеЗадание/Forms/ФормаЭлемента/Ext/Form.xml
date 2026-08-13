@@ -22,6 +22,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа3" id="165">
+			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="166"/>
@@ -232,6 +233,15 @@
 						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
+				<CheckBoxField name="РедактироватьОписание" id="167">
+					<DataPath>Объект.РедактироватьОписание</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РедактироватьОписаниеКонтекстноеМеню" id="168"/>
+					<ExtendedTooltip name="РедактироватьОписаниеРасширеннаяПодсказка" id="169"/>
+					<Events>
+						<Event name="OnChange">РедактироватьОписаниеПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаОписание" id="73">
