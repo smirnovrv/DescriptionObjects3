@@ -150,7 +150,7 @@
 		<Metadata name="CommonPicture.ПрочтенноеПисьмо" id="6c3bb5af-4c3a-4702-94ab-9cc7480f9e84" configVersion="4212e9521c73e56d2733569f9577802270f2ebd8"/>
 		<Metadata name="CommonPicture.РедактироватьФайл" id="b93a1943-6776-4142-9a7e-4cd98b834f5b" configVersion="6e431d83bff870f321284df6bf391abcd007e91d"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="78935bc1-63a1-4be1-839c-c3f1d765b4e8" configVersion="c6a8761feb73e37f5eb82f884bc36295f92b9d87"/>
-		<Metadata name="Configuration.ОписаниеКонфигурации" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="d787560baad14bcc22e7dfd21a0ea3eaa4407374"/>
+		<Metadata name="Configuration.ОписаниеКонфигурации" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="0c7f38d0115abf37ba4773995f833602975cb7e0"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя" id="bd1cbd77-4fe4-47a8-bb5d-235924110f6c" configVersion="f03550ddcc324c748fb79eac39912dd6d3129c78"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма" id="27ad51ad-0142-40ef-bb87-14ac72c0c996" configVersion="cbeba39e31a70fdee7ed0c14f4a724b33cf46766"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма.Form" id="27ad51ad-0142-40ef-bb87-14ac72c0c996.0" configVersion="2a5364916bb7446a8d317532b8c06d3139bd507f"/>
