@@ -31,6 +31,7 @@
 			<Form>ФормаЭлемента</Form>
 			<Template>Макет_</Template>
 			<Template>Макет1</Template>
+			<Template>Макет2</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

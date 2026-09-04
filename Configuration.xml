@@ -30,20 +30,24 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>997856e2-9ecf-4dc2-abde-cd47bd672722</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>ОписаниеКонфигурации</Name>
+			<Name>РС_Дополнительно</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Описание конфигурации</v8:content>
+					<v8:content>Дополнительно (РС)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>рс_</NamePrefix>
+			<NamePrefix>РС_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
@@ -51,34 +55,37 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.рс_ОписаниеКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
-			<Vendor>ИП Смирнов Роман Викторович 661300789600</Vendor>
-			<Version>3.13_2</Version>
+			<Vendor>ИП СмирновРВ</Vendor>
+			<Version>3.2.3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
-			<Copyright>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ИП Смирнов</v8:content>
-				</v8:item>
-			</Copyright>
+			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>рс_Описание</Subsystem>
+			<Subsystem>РС_Дополнительно</Subsystem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
-			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
-			<CommonPicture>СостоянияДокумента</CommonPicture>
+			<StyleItem>ВладелецФайловШрифт</StyleItem>
+			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
+			<StyleItem>ШрифтЗаголовкаРазделаМонитораРуководителя</StyleItem>
+			<StyleItem>НекорректныйКонтрагентЦветФонаВСписке</StyleItem>
+			<StyleItem>НадписьПоясняющаяГиперссылку</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовВажнаяШрифт</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ЦветВыделенияКонтрагентаСОшибкой</StyleItem>
 			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>СостоянияДокумента</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
 			<CommonPicture>РедактироватьФайл</CommonPicture>
-			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммСостоянияЗадач</CommonPicture>
 			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
 			<CommonPicture>ЗвездаСерая</CommonPicture>
@@ -86,46 +93,73 @@
 			<CommonPicture>ПрочтенноеПисьмо</CommonPicture>
 			<CommonPicture>КоллекцияЗвезды</CommonPicture>
 			<CommonPicture>БыстрыеОтборы</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>ОчиститьЗначение</CommonPicture>
 			<Role>рс_ОписаниеКонфигурации</Role>
-			<CommonModule>рс_ОбщийМодульСервер</CommonModule>
+			<Role>РС_ОсновнаяРоль</Role>
+			<CommonModule>РС_ОбщийМодульСервер</CommonModule>
 			<DefinedType>ВладелецФайлов</DefinedType>
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
+			<DefinedType>РС_ИсточникиКИ</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлыУХ</CommonCommand>
+			<CommonCommand>РС_Требования</CommonCommand>
+			<CommonCommand>РС_ТехническиеЗадания</CommonCommand>
 			<CommandGroup>рс_Разработка</CommandGroup>
+			<CommandGroup>РС_Трекер</CommandGroup>
+			<CommandGroup>РС_Дополнительно</CommandGroup>
+			<CommandGroup>РС_Описание</CommandGroup>
 			<CommonForm>рс_ФормаВыбораОснования</CommonForm>
 			<Catalog>ВидыСобытийОповещений</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>КатегорииСобытийОповещений</Catalog>
+			<Catalog>КлассификаторОКВЭД2</Catalog>
+			<Catalog>КлассификаторОКПД2</Catalog>
+			<Catalog>Контрагенты</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Catalog>рс_Действия</Catalog>
-			<Catalog>рс_Документация</Catalog>
+			<Catalog>РС_ВидыКонтактнойИнформации</Catalog>
+			<Catalog>РС_Города</Catalog>
 			<Catalog>рс_ИнформационныеБазы</Catalog>
-			<Catalog>рс_Модули</Catalog>
+			<Catalog>РС_КонтактныеЛица</Catalog>
+			<Catalog>РС_Контрагенты</Catalog>
+			<Catalog>Удалить_рс_Действия</Catalog>
+			<Catalog>Удалить_рс_Документация</Catalog>
+			<Catalog>Удалить_рс_Модули</Catalog>
+			<Catalog>Удалить_рс_ПрисоединенныеФайлы</Catalog>
+			<Catalog>Удалить_рс_СостоянияОбъекта</Catalog>
+			<Catalog>Удалить_рс_Формы</Catalog>
+			<Catalog>РС_КонтрагентыОбмен</Catalog>
 			<Catalog>рс_Объекты</Catalog>
-			<Catalog>рс_ПрисоединенныеФайлы</Catalog>
-			<Catalog>рс_Процессы</Catalog>
 			<Catalog>рс_Разделы</Catalog>
+			<Catalog>РС_Регионы</Catalog>
 			<Catalog>рс_Реквизиты</Catalog>
-			<Catalog>рс_СостоянияОбъекта</Catalog>
+			<Catalog>РС_Страны</Catalog>
 			<Catalog>рс_ТабличныеЧасти</Catalog>
 			<Catalog>рс_ТехническоеЗадание</Catalog>
 			<Catalog>рс_ТипыОбъектов</Catalog>
 			<Catalog>рс_Требование</Catalog>
-			<Catalog>рс_Формы</Catalog>
+			<Catalog>РС_ФизическиеЛица</Catalog>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
+			<Enum>ВидыСвойств</Enum>
 			<Enum>рс_ВидОбъекта</Enum>
 			<Enum>рс_ВидыОбъектов</Enum>
 			<Enum>рс_РазрезыУчета</Enum>
 			<Enum>рс_СтатусыТехЗаданий</Enum>
 			<Enum>рс_СтатусыТребований</Enum>
+			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>ФормыОплаты</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
-			<DataProcessor>рс_Документация</DataProcessor>
+			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<DataProcessor>рс_ОписаниеСтруктурыПрограммыАрхив</DataProcessor>
 			<DataProcessor>рс_ОписаниеТрекераАрхив</DataProcessor>
 			<DataProcessor>ЗадачиИОповещенияТекущегоПользователя</DataProcessor>
+			<DataProcessor>РС_ЗаполнитьДопольнительныеОКВЭД2</DataProcessor>
+			<DataProcessor>РС_ПриведениеКонтрагентовВНорму</DataProcessor>
+			<DataProcessor>рс_Документация</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>рс_КоличествоЭлементовИБ</InformationRegister>
+			<InformationRegister>РС_КонтактнаяИнформация</InformationRegister>
+			<InformationRegister>РС_ЭлектроннаяПочтаДляРассылки</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
